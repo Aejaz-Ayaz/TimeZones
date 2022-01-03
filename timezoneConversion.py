@@ -17,12 +17,3 @@ print("MST will be:",datetime.datetime.strftime(t1.astimezone(pytz.timezone("MST
 print("PST will be:",datetime.datetime.strftime(t1.astimezone(pytz.timezone("us/pacific")),"%I:%M %p"))
 print("IST will be:",datetime.datetime.strftime(t1.astimezone(pytz.timezone("Asia/Kolkata")),"%I:%M %p"))
 
-
-
-# next steps
-# combine t and tz variables
-# add error handling
-# add date coversion along with it
-# how to make it better (trim)
-# add gui
-
